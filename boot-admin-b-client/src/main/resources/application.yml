@@ -23,3 +23,8 @@ management:
             exposure:
                 include: '*'
             base-path: /hello/admin
+    info:
+        git:
+            mode: full
+logging:
+    file: ./logs/data-b.log

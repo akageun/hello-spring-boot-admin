@@ -23,3 +23,5 @@ management:
             exposure:
                 include: '*'
             base-path: /hello/admin
+logging:
+    file: ./logs/data-a.log
