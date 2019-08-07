@@ -1,0 +1,25 @@
+server:
+    port: 8809
+spring:
+    boot:
+        admin:
+            client:
+                url: http://localhost:9905
+                instance:
+                    name: boot-admin-A-client
+                    metadata:
+                        user.name: ${spring.security.user.name}
+                        user.password: ${spring.security.user.password}
+                username: ${spring.security.user.name}
+                password: ${spring.security.user.password}
+    security:
+        user:
+            name: admin
+            password: admin
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+            base-path: /hello/admin
