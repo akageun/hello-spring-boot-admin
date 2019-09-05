@@ -11,4 +11,4 @@
 
 ---
 # Blog
-- https://akageun.github.io/2019/08/07/spring-boot-admin-01.html
+- https://akageun.github.io/2019/08/08/spring-boot-admin-01.html
